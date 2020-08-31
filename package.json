@@ -1,0 +1,29 @@
+{
+  "name": "is-not-boolean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Konrad Linkowski",
+  "description": "Is this value not a JS Boolean? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+  "repository": "https://github.com/KonradLinkowski/is-not-boolean",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "Boolean",
+    "ES6",
+    "toStringTag",
+    "@@toStringTag",
+    "Boolean object",
+    "true",
+    "false",
+    "is-boolean",
+    "is-not-boolean"
+  ],
+  "dependencies": {
+    "is-boolean-object": "^1.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  }
+}
